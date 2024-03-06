@@ -133,6 +133,7 @@ body {
 .rmemes {
   display: inline;
   animation: sslide 3s ease-in-out;
+  background-color: transparent;
 }
 
 .rizzlr {
