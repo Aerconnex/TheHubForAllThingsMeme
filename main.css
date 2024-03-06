@@ -393,6 +393,7 @@ ol{
 }
 a button:hover{
   color: #ffffff;
+  text-decoration: none;
 }
 @keyframes sslide {
   from{transform: translateX(-300px);}
