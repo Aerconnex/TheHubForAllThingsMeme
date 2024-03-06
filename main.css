@@ -70,44 +70,6 @@ h1 {
   margin-top: 3em;
 }
 
-.Button_Especial {
-  align-items: center;
-  appearance: none;
-  background-color: rgb(36, 125, 203);
-  background-image: linear-gradient(1deg, #4F58FD, #149BF3 69%);
-  background-size: calc(100% + 20px) calc(100% + 20px);
-  border-radius: 100px;
-  border: 0;
-  box-shadow: none;
-  box-sizing: border-box;
-  color: #FFFFFF;
-  display: inline-flex;
-  font-family: "Montserrat", "Poppins", sans-serif;
-  font-size: 1rem;
-  justify-content: center;
-  line-height: 1.5;
-  padding: 6px 20px;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  transition: background-color .2s, background-position .2s;
-  
-  &:active,
-  &:focus {
-    outline: none;
-  }
-  
-  &:hover {
-    background-position: -20px -20px;
-    cursor: pointer;
-    color: #FFFFFF;
-  }
-  
-  &:focus:not(:active) {
-    box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
-  }
-}
-
 #Active {
   text-decoration: underline;
   color: white;
@@ -392,7 +354,43 @@ ol{
     margin-bottom: 0;
   }
 }
-
+.Button_Especial {
+  align-items: center;
+  appearance: none;
+  background-color: rgb(36, 125, 203);
+  background-image: linear-gradient(1deg, #4F58FD, #149BF3 69%);
+  background-size: calc(100% + 20px) calc(100% + 20px);
+  border-radius: 100px;
+  border: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: inline-flex;
+  font-family: "Montserrat", "Poppins", sans-serif;
+  font-size: 1rem;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 6px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .2s, background-position .2s;
+  
+  &:active,
+  &:focus {
+    outline: none;
+  }
+  
+  &:hover {
+    background-position: -20px -20px;
+    cursor: pointer;
+    color: #FFFFFF;
+  }
+  
+  &:focus:not(:active) {
+    box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+  }
+}
 @keyframes sslide {
   from{transform: translateX(-300px);}
 
