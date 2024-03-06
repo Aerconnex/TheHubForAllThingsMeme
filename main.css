@@ -6,11 +6,6 @@ ul {
   justify-content: right;
   vertical-align: center;
 }
-@keyframes sslide {
-  from{transform: translateX(-300px);}
-
-  to{transform: translateX(0);}
-}
 li {
   vertical-align: center;
   margin-right: 20px;
@@ -374,17 +369,31 @@ ol{
 }
 .card {
   width: 600px;
-  height: 600px;
-  backdrop-filter: blur(20px);
-  background-position: center;
-  border-radius: 10px;
-  overflow: hidden;
-  position: relative;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-  transition: box-shadow 0.3s ease;
-  padding-bottom: 18px;
+    height: 600px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease;
+    backdrop-filter: blur(20px);
+    padding-bottom: 10px;
+    padding-top: 15px;
+    margin-bottom: 30px;
   &:hover{
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
   }
+  h1{
+    margin: 0 0 15px 0;
+    background-color: transparent;
+    backdrop-filter: saturate(50%);
+  }
+  img{
+    margin-bottom: 0;
+  }
 }
 
+@keyframes sslide {
+  from{transform: translateX(-300px);}
+
+  to{transform: translateX(0);}
+}
