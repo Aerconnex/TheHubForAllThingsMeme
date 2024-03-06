@@ -23,6 +23,4 @@ const randomContent = [
     document.querySelector("audio").pause();
     document.querySelector("audio").muted = true;
   }, 15000);
-
-document.querySelector("audio").muted = false;
-document.querySelector("html").style.backgroundImage = "none";
+document.querySelector('.Main').style.backgroundColor = "transparent";
