@@ -19,7 +19,6 @@ const randomContent = [
     document.querySelector('.loading-container').style.display = 'none';
     document.querySelector('header').style.display = 'block';
     document.querySelector('.Main').style.display = 'block';
-    document.querySelector('.Main').style.backgroundImage = "url('Stage.jpeg')";
     document.querySelector('Body').style.backgroundImage = "url('Stage.jpeg')";
     document.querySelector("audio").pause();
     document.querySelector("audio").muted = true;
