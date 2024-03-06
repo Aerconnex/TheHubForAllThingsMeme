@@ -391,8 +391,12 @@ ol{
     box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
   }
 }
+a button:hover{
+  color: #ffffff;
+}
 @keyframes sslide {
   from{transform: translateX(-300px);}
 
   to{transform: translateX(0);}
 }
+            
