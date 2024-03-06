@@ -25,3 +25,4 @@ const randomContent = [
   }, 15000);
 
 document.querySelector("audio").muted = false;
+document.querySelector("html").style.backgroundImage = "none";
