@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  vertical-align: center;
+}
+@keyframes sslide {
+  from{transform: translateX(-300px);}
+
+  to{transform: translateX(0);}
+}
+li {
+  vertical-align: center;
+  margin-right: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  :hover {
+    color: rgb(36, 125, 203);
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+header {
+  top: 0;
+  position: fixed;
+  border-radius: 20px;
+  background-color: #272525;
+}
+
+table {
+  margin-top: 50px;
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 20px;
+  font-family: 'Poppins', 'Montserrat', sans-serif;
+  border: 1px solid #ffffff;
+  
+  th, td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  tr {
+    background-color: transparent;
+    color: white;
+    backdrop-filter: saturate(10%);
+    
+    &:hover {
+      background-color: #ffffff;
+      color: #149BF3;
+      cursor: alias;
+    }
+  }
+}
+
+h1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  background-color: #4F58FD;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-top: 3em;
+}
+
+.Button_Especial {
+  align-items: center;
+  appearance: none;
+  background-color: rgb(36, 125, 203);
+  background-image: linear-gradient(1deg, #4F58FD, #149BF3 69%);
+  background-size: calc(100% + 20px) calc(100% + 20px);
+  border-radius: 100px;
+  border: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: inline-flex;
+  font-family: "Montserrat", "Poppins", sans-serif;
+  font-size: 1rem;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 6px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .2s, background-position .2s;
+  
+  &:active,
+  &:focus {
+    outline: none;
+  }
+  
+  &:hover {
+    background-position: -20px -20px;
+    cursor: pointer;
+  }
+  
+  &:focus:not(:active) {
+    box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+  }
+}
+
+#Active {
+  text-decoration: underline;
+  color: white;
+  
+  :hover {
+    color: white;
+  }
+}
+
+.Especial {
+  margin-left: 48.5em;
+}
+
+body {
+  background-image: url(Images/Stage.jpeg);
+  background-size: cover;
+}
+
+.Main {
+  margin-top: 5em;
+  justify-content: center;
+}
+
+.rmemes {
+  display: inline;
+  animation: sslide 3s ease-in-out;
+}
+
+.rizzlr {
+  background-color: #4F58FD;
+  padding-left: auto;
+  padding-right: auto;
+
+  &:hover{
+    cursor: default;
+  }
+}
+::-webkit-scrollbar{
+  display: none;
+}
+p{
+  margin: 15px;
+  backdrop-filter: blur(20px);
+  padding: 1em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:  #1c5301;
+}
+h3{
+  background-image: linear-gradient(#149BF3, #4F58FD);
+  background-size: cover;
+  padding: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-repeat: no-repeat;
+}
+.Explain{
+  margin-top: 1000px;
+  background-color: #272525;
+}
+ol{
+  background-color: rgb(58, 55, 45);
+  p{
+    color: #ddd;
+    backdrop-filter: none;
+  }
+  ol{
+    margin-top: 10;
+  }
+}
+.loader {
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #3498db;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  z-index: 9999;
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  vertical-align: center;
+}
+@keyframes sslide {
+  from{transform: translateX(-300px);}
+
+  to{transform: translateX(0);}
+}
+li {
+  vertical-align: center;
+  margin-right: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  :hover {
+    color: rgb(36, 125, 203);
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+header {
+  top: 0;
+  position: fixed;
+  border-radius: 20px;
+  background-color: #272525;
+}
+
+table {
+  margin-top: 50px;
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 20px;
+  font-family: 'Poppins', 'Montserrat', sans-serif;
+  border: 1px solid #ffffff;
+  
+  th, td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  tr {
+    background-color: transparent;
+    color: white;
+    backdrop-filter: saturate(10%);
+    
+    &:hover {
+      background-color: #ffffff;
+      color: #149BF3;
+      cursor: alias;
+    }
+  }
+}
+
+h1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  background-color: #4F58FD;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-top: 3em;
+}
+
+.Button_Especial {
+  align-items: center;
+  appearance: none;
+  background-color: rgb(36, 125, 203);
+  background-image: linear-gradient(1deg, #4F58FD, #149BF3 69%);
+  background-size: calc(100% + 20px) calc(100% + 20px);
+  border-radius: 100px;
+  border: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: inline-flex;
+  font-family: "Montserrat", "Poppins", sans-serif;
+  font-size: 1rem;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 6px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .2s, background-position .2s;
+  
+  &:active,
+  &:focus {
+    outline: none;
+  }
+  
+  &:hover {
+    background-position: -20px -20px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+  }
+  &:focus:not(:active) {
+    box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+  }
+}
+
+#Active {
+  text-decoration: underline;
+  color: white;
+  
+  :hover {
+    color: white;
+  }
+}
+
+.Especial {
+  margin-left: 48.5em;
+}
+
+body {
+  background-image: url(Images/Stage.jpeg);
+  background-size: cover;
+}
+
+.Main {
+  margin-top: 5em;
+  justify-content: center;
+}
+
+.rmemes {
+  display: inline;
+  animation: sslide 3s ease-in-out;
+}
+
+.rizzlr {
+  background-color: #4F58FD;
+  padding-left: auto;
+  padding-right: auto;
+
+  &:hover{
+    cursor: default;
+  }
+}
+::-webkit-scrollbar{
+  display: none;
+}
+p{
+  margin: 15px;
+  backdrop-filter: blur(20px);
+  padding: 1em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:  #1c5301;
+}
+h3{
+  background-image: linear-gradient(#149BF3, #4F58FD);
+  background-size: cover;
+  padding: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-repeat: no-repeat;
+}
+.Explain{
+  margin-top: 1000px;
+  background-color: #272525;
+}
+ol{
+  background-color: rgb(58, 55, 45);
+  p{
+    color: #ddd;
+    backdrop-filter: none;
+  }
+  ol{
+    margin-top: 10;
+  }
+}
+}
+/* Card container */
+.card {
+  width: 600px;
+  height: 600px;
+  backdrop-filter: blur(20px);
+  background-position: center;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.3s ease;
+  padding-bottom: 18px;
+  &:hover{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+  }
+}
+

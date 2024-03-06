@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  vertical-align: center;
+}
+li {
+  vertical-align: center;
+  margin-right: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  :hover {
+    color: rgb(36, 125, 203);
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+header {
+  top: 0;
+  position: fixed;
+  border-radius: 20px;
+  background-color: #272525;
+}
+
+table {
+  margin-top: 50px;
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 20px;
+  font-family: 'Poppins', 'Montserrat', sans-serif;
+  border: 1px solid #ffffff;
+  
+  th, td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  tr {
+    background-color: transparent;
+    color: white;
+    backdrop-filter: saturate(10%);
+    
+    &:hover {
+      background-color: #ffffff;
+      color: #149BF3;
+      cursor: alias;
+    }
+  }
+}
+
+h1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  background-color: #4F58FD;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-top: 3em;
+}
+
+.Button_Especial {
+  align-items: center;
+  appearance: none;
+  background-color: rgb(36, 125, 203);
+  background-image: linear-gradient(1deg, #4F58FD, #149BF3 69%);
+  background-size: calc(100% + 20px) calc(100% + 20px);
+  border-radius: 100px;
+  border: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: inline-flex;
+  font-family: "Montserrat", "Poppins", sans-serif;
+  font-size: 1rem;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 6px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .2s, background-position .2s;
+  
+  &:active,
+  &:focus {
+    outline: none;
+  }
+  
+  &:hover {
+    background-position: -20px -20px;
+    cursor: pointer;
+  }
+  
+  &:focus:not(:active) {
+    box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+  }
+}
+
+#Active {
+  text-decoration: underline;
+  color: white;
+  
+  :hover {
+    color: white;
+  }
+}
+
+.Especial {
+  margin-left: 48.5em;
+}
+
+body {
+  background-color: #009f25;
+  background-size: cover;
+}
+
+.Main {
+  margin-top: 5em;
+  justify-content: center;
+}
+
+.rmemes {
+  display: inline;
+  animation: sslide 3s ease-in-out;
+}
+
+.rizzlr {
+  background-color: #4F58FD;
+  padding-left: auto;
+  padding-right: auto;
+
+  &:hover{
+    cursor: default;
+  }
+}
+::-webkit-scrollbar{
+  display: none;
+}
+p{
+  margin: 15px;
+  backdrop-filter: blur(20px);
+  padding: 1em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:  #1c5301;
+}
+h3{
+  background-image: linear-gradient(#149BF3, #4F58FD);
+  background-size: cover;
+  padding: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-repeat: no-repeat;
+}
+.Explain{
+  margin-top: 1000px;
+  background-color: #272525;
+}
+ol{
+  background-color: rgb(58, 55, 45);
+  p{
+    color: #ddd;
+    backdrop-filter: none;
+  }
+  ol{
+    margin-top: 10;
+  }
+}
+.loader {
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #3498db;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  z-index: 9999;
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  vertical-align: center;
+}
+li {
+  vertical-align: center;
+  margin-right: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  :hover {
+    color: rgb(36, 125, 203);
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+header {
+  top: 0;
+  position: fixed;
+  border-radius: 20px;
+  background-color: #272525;
+}
+
+table {
+  margin-top: 50px;
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 20px;
+  font-family: 'Poppins', 'Montserrat', sans-serif;
+  border: 1px solid #ffffff;
+  
+  th, td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  tr {
+    background-color: transparent;
+    color: white;
+    backdrop-filter: saturate(10%);
+    
+    &:hover {
+      background-color: #ffffff;
+      color: #149BF3;
+      cursor: alias;
+    }
+  }
+}
+
+h1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  background-color: #4F58FD;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-top: 3em;
+}
+
+.Button_Especial {
+  align-items: center;
+  appearance: none;
+  background-color: rgb(36, 125, 203);
+  background-image: linear-gradient(1deg, #4F58FD, #149BF3 69%);
+  background-size: calc(100% + 20px) calc(100% + 20px);
+  border-radius: 100px;
+  border: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: inline-flex;
+  font-family: "Montserrat", "Poppins", sans-serif;
+  font-size: 1rem;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 6px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .2s, background-position .2s;
+  
+  &:active,
+  &:focus {
+    outline: none;
+  }
+  
+  &:hover {
+    background-position: -20px -20px;
+    cursor: pointer;
+  }
+  
+  &:focus:not(:active) {
+    box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+  }
+}
+
+#Active {
+  text-decoration: underline;
+  color: white;
+  
+  :hover {
+    color: white;
+  }
+}
+
+.Especial {
+  margin-left: 48.5em;
+}
+
+body {
+  background-image: url(Images/Stage.jpeg);
+  background-size: cover;
+}
+
+.Main {
+  margin-top: 5em;
+  justify-content: center;
+}
+
+.rmemes {
+  display: inline;
+  animation: sslide 3s ease-in-out;
+}
+
+.rizzlr {
+  background-color: #4F58FD;
+  padding-left: auto;
+  padding-right: auto;
+
+  &:hover{
+    cursor: default;
+  }
+}
+::-webkit-scrollbar{
+  display: none;
+}
+p{
+  margin: 15px;
+  backdrop-filter: blur(20px);
+  padding: 1em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:  #1c5301;
+}
+h3{
+  background-image: linear-gradient(#149BF3, #4F58FD);
+  background-size: cover;
+  padding: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-repeat: no-repeat;
+}
+.Explain{
+  margin-top: 1000px;
+  background-color: #272525;
+}
+ol{
+  background-color: rgb(58, 55, 45);
+  p{
+    color: #ddd;
+    backdrop-filter: none;
+  }
+  ol{
+    margin-top: 10;
+  }
+}
+}
+header, .Main {
+  display: none;
+}
+
+.loading-container {
+  text-align: center;
+  width: 100%;
+  top: 50%;
+  transform: translateY(100%);
+}
+
+.loading-text {
+  font-size: 24px;
+  color: #FFF;
+  margin-bottom: 20px;
+  transition: opacity 2s ease-in-out;
+  transform: translateY(50%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.loading-animation {
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  background-size: cover;
+  animation: shrekToDonkey 4s infinite;
+  transform: translateY(50%);
+}
+@keyframes shrekToDonkey {
+  0% {
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4a83c830-d269-45ab-bca9-d5a46bd1f863/d5xwvse-bd32a043-8eb8-4e75-8e5e-0a97d20b07e5.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzRhODNjODMwLWQyNjktNDVhYi1iY2E5LWQ1YTQ2YmQxZjg2M1wvZDV4d3ZzZS1iZDMyYTA0My04ZWI4LTRlNzUtOGU1ZS0wYTk3ZDIwYjA3ZTUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.a8Az08XBqkxt8AoiMVOrApFxS-tW7XeATFZBU0L2HuQ');
+    rotate: 420deg;
+  }
+  20%{
+    background-image: url('https://i.etsystatic.com/37797298/r/il/7cc8df/4402006704/il_fullxfull.4402006704_qzco.jpg');
+    rotate: 123974918326deg;
+  }
+  40% {
+    background-image: url('https://ih1.redbubble.net/image.1757164073.0185/raf,750x1000,075,t,fafafa:ca443f4786.jpg');
+    rotate: 180823741623479123deg;
+  }
+  60%{
+    background-image: url('https://cdn.printerval.com/image/960x960/t-shirts-men-heavyweight-t-shirt,black,print-2023-06-10+d1960015-dec2-4514-bd53-c5be566c67c0,2d2d2d.jpeg');
+    rotate: 27013246329478deg;
+  }
+  80%{
+    background-image: url('https://ih1.redbubble.net/image.4964953989.1886/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg');
+    rotate: 69deg;
+  }
+  100% {
+    background-image: url('https://ih1.redbubble.net/image.4748860396.4645/flat,750x,075,f-pad,750x1000,f8f8f8.jpg');
+    rotate: 3617641923480deg;
+  }
+}
