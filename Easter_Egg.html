@@ -50,15 +50,17 @@ function reset() {
 	document.getElementById("sentence").innerHTML="";
 	document.getElementById("quote").innerHTML="";
 }
-
+if(document.getElementById("adjective").value == 'scrumptious'){
+	document.querySelector(".Button_Especial").style.display = "block";
+}
 </script>
-<link rel="stylesheet" src="Main2.css">
+<link rel="stylesheet" src="main2.css">
 </head>
 <body>
 <H1>Quote libs</H1>
 
 <br>
-<div id="instruct"><i>Submit / Resubmit to see Mad Lib(s)... Reset to try new quotes! Have fun!</i></div>
+<div>Submit / Resubmit to see Mad Lib(s)... Reset to try new quotes! Have fun!</div>
 <br>
 <label for="adjective"> Please type an adjective</label>
 <input type="text" id="adjective"><br>
@@ -73,5 +75,6 @@ function reset() {
 <div id="sentence"></div>
 <br>
 <div id="quote"></div>
+<button class="Button_Especial" style="display: none;">Click Me!</button>
 </body>
 </html>
