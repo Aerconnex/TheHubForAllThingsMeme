@@ -1,60 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="main2.css"/>
-    <title>A Website About Comedy</title>
-    <link type="image/x-icon" href="Logo.ico" rel="icon"/>
+<title>Qoute Libs</title>
+<meta charset="UTF-8">
+<script>
+
+/**This is the collection of base sentences**/
+let sentences = [
+"Life is like riding a(n) {1}. To keep your {0} balance, you must keep {2}ing.",
+"To be or not to be {2}ing is the {0} {1}",
+"Try not to become a man of success but rather try to become a(n) {0} {1} that is always {2}ing",
+"{1} should be made as {0} as possible. But no simpler... {2} it!",
+"Logic will get you from A to B. {0} {1}(s) will {2} you everywhere!",
+"Be the {1} you that you wish to {2} in the {0} world."
+];
+let quotes = [
+"Life is like riding a bicycle. To keep your balance, you must keep moving. - Albert Einstien", 
+"To be or not to be is the question - William Shakespere",
+"Try not to become a man of sucsess but rather a man of value - Albert Einstien",
+"Everything should be made as simple as possible, but no simpler - Albert Einstien",
+"Logic will get you from A to B, imagination will take you everywhere - Albert Einstien",
+"Be the change you that you wish to see in the world - Mahatma Gandhi"
+];
+
+function handleIt() {
+  
+  var r = Math.floor(Math.random() * 6);
+  var adjective = document.getElementById("adjective");
+  var noun = document.getElementById("noun");
+  var verb = document.getElementById("verb");
+
+  var chosen = sentences[r];
+  var updAdj =chosen.replace("{0}", adjective.value); 
+  var updNoun = updAdj.replace("{1}", noun.value); 
+  var updVrb = updNoun.replace("{2}", verb.value);
+  
+  //alert(updVrb);
+  document.getElementById("quote").innerHTML = "<b>Original Quote:</b> <i>" + quotes[r] + "</i>";
+  document.getElementById("sentence").innerHTML = "<b>Your Madlib: </b>" + updVrb; 
+  //alert(document.getElementById("sentence").innerHTML);
+  return false;
+  
+}
+function reset() {
+
+	document.getElementById("adjective").value = "";
+	document.getElementById("noun").value = "";
+	document.getElementById("verb").value = "";
+	document.getElementById("sentence").innerHTML="";
+	document.getElementById("quote").innerHTML="";
+}
+
+</script>
+<link rel="stylesheet" src="Main2.css">
 </head>
 <body>
-    <center>
-    <header>
-        <nav class="navbar">
-            <ul>
-                <a><li><img src="Logo.ico" width="32px" height="32px"/></li></a>
-                <a href="index.html"><li class="Especial">Home</li></a>
-                <a href="Comedy.html"><li>Principles Of Comedy</li></a>
-                <a href="Good One Linrz.html"><li>Good One-Liners</li></a>
-                <a href="Meme.html"><li>Meme Archive</li></a>
-                <a href="Easter_Egg.html"><li id="Active">Eastr Egg</li></a>
-            </ul>
-        </nav>
-    </header>
-    </center>
-<div class="Main">
-    <h1>Wall Of Jokes</h1>
-    <h2>Submit Your Jokes To My E-Mail Adress (sparikh@fultonscienceacademy.org), and Maybe we will put them on the wall.</h2>
-    <table class="ssriram_joke">
-            <tr>
-                <th>Joke</th>
-                <th>Punch Line</th>
-                <th>Rizz Factor</th>
-                <th>Laugh Factor</th>
-                <th>Overall Rating</th>
-                <th>Genre</th>
-                <th>Provider</th>
-            </tr>
-            <tr style="display: none;">
-                <td>Why was 6 afraid of 7?</td>
-                <td>Because 7 was a certified 6 offender</td>
-                <td>999999999999999999/10</td>
-                <td>999999999999999999/10</td>
-                <td>∞/10</td>
-                <td>Rizzy Line</td>
-                <td>Shravan Sriram</td>
-            </tr>
-            <tr>
-                <td>Why do cows use bells?</td>
-                <td>Their Horns don't work.</td>
-                <td>-10/10</td>
-                <td>-10/10</td>
-                <td>-∞/10</td>
-                <td>Cring-E joke</td>
-                <td>Jack Bostic</td>
-            </tr>
-    </table>
-    <center><button class="Button_Especial">This is just hear for no reason!</button></center>
-</div>
+<H1>Quote libs</H1>
+
+<br>
+<div id="instruct"><i>Submit / Resubmit to see Mad Lib(s)... Reset to try new quotes! Have fun!</i></div>
+<br>
+<label for="adjective"> Please type an adjective</label>
+<input type="text" id="adjective"><br>
+<label for="noun">please type a noun </label>
+<input type="text" id="noun"><br>
+<label for= "verb"> please type a verb </label>
+<input type="text" id="verb">
+<br><br>
+<input type="button" value="Submit" onclick="javascript:handleIt()">
+<input type="button" value="Reset" onclick="javascript:reset()">
+<br><br>
+<div id="sentence"></div>
+<br>
+<div id="quote"></div>
 </body>
 </html>
