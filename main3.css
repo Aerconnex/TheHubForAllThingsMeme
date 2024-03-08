@@ -417,3 +417,8 @@ header, .Main {
     rotate: 3314354513475981475908134759817452deg;
   }
 }
+h6::after{
+  margin-right: auto;
+  content: " ";
+  text-align: right;
+}
